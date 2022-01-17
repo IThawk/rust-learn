@@ -10,7 +10,7 @@ use url::ParseError;
 // 下面 /// 的注释是文档，clap 会将其作为 CLI 的帮助
 /// A naive httpie implementation with Rust, can you imagine how easy it is?
 #[derive(Parser, Debug)]
-#[clap(author = "ithawk", version = "0.1.0", about, long_about = None)]
+#[clap(author = "ithawk <lianwei1994@163.com>", version = "0.1.0", about, long_about = None)]
 #[clap(setting = AppSettings::ColoredHelp)]
 struct Opts {
     #[clap(subcommand)]
