@@ -1,0 +1,15 @@
+[package]
+name = "rust-learn"
+version = "0.1.0"
+authors = ["IThawk <lianwei1994@163.com>"]
+edition = "2021"
+include = ["Cargo.toml", "LICENSE", "README.md"]
+description = "rust learn project"
+readme = "README.md"
+repository = "..........."
+
+
+[workspace]
+members=[
+"http_cli"]
+
