@@ -117,6 +117,7 @@ fn print_status(resp: &Response) {
     let status = format!("{:?} {}", resp.version(), resp.status()).blue();
     println!("{}\n", status);
 }
+
 // 打印服务器返回的 HTTP header
 fn print_headers(resp: &Response) {
     for (name, value) in resp.headers() {
